@@ -12,10 +12,8 @@ This project involves the development of a deep learning model for MRI skull str
 ## Model Architecture
 
 ### UNet3D
-[UNet3D Structure](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
+![UNet3D Structure](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
 The model used in this project is a 3D version of the UNet architecture, designed to handle volumetric data such as MRI scans. UNet3D is known for its encoder-decoder structure, which is particularly effective for segmentation tasks in 3D medical imaging.
-
-
 
 ## Required Packages
 
