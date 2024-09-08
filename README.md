@@ -7,13 +7,14 @@ This project involves the development of a deep learning model for MRI skull str
 ## Dataset
 T1-weighted volumetric brain MR images used in this project is sourced from the [Calgary Campinas 359 Dataset](https://portal.conp.ca/dataset?id=projects/calgary-campinas)
 - 359 Participants
+- Acquisition matrix size 256 x 218 x [170,180]
 - 1.5 T and 3 T Magnetic Field Strength
 - Voxel size for images is 1 mm³
   
 ## Model
 The model used in this project is a 3D version of the UNet architecture, designed to handle volumetric data such as MRI scans. UNet3D is known for its encoder-decoder structure, which is particularly effective for segmentation tasks in 3D medical imaging.
 
-![UNet3D Structure](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
+![UNet3D Structure](https://drive.google.com/uc?export=view&id=1V6rL5vy5NQUCQxXu-xWdcCd-9f2kVmQu)
 
 ### Training Setup
 - Optimizer: Adam
